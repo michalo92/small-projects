@@ -9,7 +9,7 @@ buttonClick.addEventListener("click", function () {
 
   for (let i = 0; i < 6; i++) {
     let ranNumber = Math.trunc(Math.random() * hexArr.length);
-    newHex = newHex + hexArr[ranNumber];
+    newHex += hexArr[ranNumber];
   }
   actualColorInContainer.textContent = newHex;
   body.style.backgroundColor = newHex;
