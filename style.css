@@ -43,7 +43,7 @@ body {
   margin-bottom: 48px;
   border-radius: 12px;
   color: #2e2e2e;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 .button-set-color {
   color: #cfcfcf;
@@ -58,5 +58,5 @@ body {
 }
 .button-set-color:hover {
   background-color: #2e2e2ec2;
-  border: 2px solid black;
+  border: 2px solid #222;
 }
