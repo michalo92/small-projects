@@ -1,4 +1,3 @@
-const body = document.querySelector(".body");
 const actualColorInContainer = document.querySelector(".actual-color-number");
 const buttonClick = document.querySelector(".button-set-color");
 
@@ -12,6 +11,6 @@ buttonClick.addEventListener("click", function () {
     newHex += hexArr[ranNumber];
   }
   actualColorInContainer.textContent = newHex;
-  body.style.backgroundColor = newHex;
+  document.body.style.backgroundColor = newHex;
   actualColorInContainer.style.backgroundColor = newHex;
 });
